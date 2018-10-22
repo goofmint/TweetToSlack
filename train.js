@@ -1,9 +1,10 @@
 const FastText = require('fasttext.js');
+const config = require('./config');
 
 (async () => {
   var fastText = new FastText({
     serializeTo: './model',
-    trainFile: './train.txt',
+    trainFile: config.files.train,
     
   });
   await fastText.train({

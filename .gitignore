@@ -1,0 +1,11 @@
+tweets.csv
+train.txt
+package-lock.json
+node_modules/
+model.bin model.vec
+.DS_Store
+config.json
+id.txt
+model.bin
+model.vec
+create_train_file.js

@@ -1,0 +1,21 @@
+{
+  "slack": {
+    "url": "https://hooks.slack.com/services/YOUR_TOKEN",
+    "channel": "YOUR_CHANNEL",
+    "username": "YOUR_USERNAME",
+    "emoji": "EMOJI"
+  },
+  "twitter": {
+    "url": "https://twitter.com/",
+    "consumerKey": "YOUR_CONSUMER_KEY",
+    "consumerSecret": "YOUR_CONSUMER_SECRET",
+    "accessToken": "YOUR_ACCESS_TOKEN",
+    "accessTokenSecret": "YOUR_ACCESS_TOKEN_SECRET",
+    "search": "SEARCH_TERM",
+    "lang": "LANG"
+  },
+  "files": {
+    "train": "train.txt",
+    "id": "id.txt"
+  }
+}
